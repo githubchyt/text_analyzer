@@ -45,7 +45,6 @@ else:
         select_text = task.TEXTS[int(text_nbr)-1]
         translate_table = select_text.maketrans(",-", "  ", ".")
         clear_list = select_text.translate(translate_table).split()
-        print(clear_list)
         
         for word in clear_list:
             #hodnoty pro sloupcový graf
